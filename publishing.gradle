@@ -24,16 +24,16 @@ if (project.plugins.hasPlugin("com.android.library")) {
             }
         }
 
-        repositories {
-            maven {
-                name 'Bintray'
-                url "https://api.bintray.com/maven/${project.org}/${project.repo}/${project.name}/;publish=1"
-
-                credentials {
-                    username BINTRAY_USERNAME
-                    password BINTRAY_API_KEY
-                }
-            }
-        }
+//        repositories {
+//            maven {
+//                name 'Bintray'
+//                url "https://api.bintray.com/maven/${project.org}/${project.repo}/${project.name}/;publish=1"
+//
+//                credentials {
+//                    username BINTRAY_USERNAME
+//                    password BINTRAY_API_KEY
+//                }
+//            }
+//        }
     }
 }
